@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E555C0D2413F4C50049A1A2 /* BiometricAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* BiometricAuth.m */; };
-		F4FF95D7245B92E800C19C63 /*  BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  BiometricAuth.swift */; };
+		F4FF95D7245B92E800C19C63 /* BiometricAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* BiometricAuth.swift */; };
+		F9F224822A5425E7008E9DAF /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F224812A541B78008E9DAF /* BiometricIDAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		B3E7B5891CC2AC0600A0062D /* BiometricAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiometricAuth.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* BiometricAuth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiometricAuth-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* BiometricAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuth.swift; sourceTree = "<group>"; };
+		F9F224812A541B78008E9DAF /* BiometricIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				F9F224812A541B78008E9DAF /* BiometricIDAuth.swift */,
 				F4FF95D6245B92E800C19C63 /* BiometricAuth.swift */,
 				B3E7B5891CC2AC0600A0062D /* BiometricAuth.m */,
 				F4FF95D5245B92E700C19C63 /* BiometricAuth-Bridging-Header.h */,
@@ -117,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* BiometricAuth.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* BiometricAuth.m in Sources */,
+				F9F224822A5425E7008E9DAF /* BiometricIDAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

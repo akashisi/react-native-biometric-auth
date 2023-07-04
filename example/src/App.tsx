@@ -1,13 +1,16 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-biometric-auth';
+import { authorize } from 'react-native-biometric-auth';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    authorize().then((res) => {
+      setResult(res);
+      console.log('res kkk-->', res);
+    });
   }, []);
 
   return (
