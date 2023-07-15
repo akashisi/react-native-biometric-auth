@@ -2,9 +2,16 @@
 
 ## Installation
 
-```sh
-npm install react-native-biometric-authentication
+```shell
+npm i --save react-native-biometric-authentication
 ```
+
+or
+
+```shell
+yarn add react-native-biometric-authentication
+```
+
 
 ## Usage
 
