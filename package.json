@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://www.github.com/sanchit",
-  "author": "sanchit <sanchit.srivatava@pditechnologies.com> (https://www.github.com/sanchit)",
+  "repository": "https://github.com/akashisi/react-native-biometric-auth",
+  "author": "Akash Kumar <cccakash@gmail.com> (https://www.github.com/akashisi)",
   "license": "MIT",
   "bugs": {
-    "url": "https://www.github.com/sanchit/issues"
+    "url": "https://www.github.com/akashisi"
   },
-  "homepage": "https://www.github.com/sanchit#readme",
+  "homepage": "https://www.github.com/akashisi#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
