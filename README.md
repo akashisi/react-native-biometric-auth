@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm install react-native-biometric-auth
+npm install react-native-biometric-authentication
 ```
 
 ## Usage
