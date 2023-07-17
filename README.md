@@ -1,4 +1,4 @@
-# react-native-biometric-auth
+# react-native-biometric-authentication
 
 ## Installation
 
@@ -24,7 +24,7 @@ In order to use biometric auth, you must first link the library to your project.
 Use the built-in command:
 
 ```shell
-react-native link react-native-biometric-auth
+react-native link react-native-biometric-authentication
 ```
 
 #### Using Cocoapods (iOS only)
@@ -32,7 +32,7 @@ react-native link react-native-biometric-auth
 On iOS you can also link package by updating your podfile
 
 ```ruby
-pod 'TouchID', :path => "#{node_modules_path}/react-native-biometric-auth"
+pod 'TouchID', :path => "#{node_modules_path}/react-native-biometric-authentication"
 ```
 
 and then run
@@ -51,13 +51,13 @@ In your Info.plist:
 ```xml
 <key>RNFaceAuthentication</key>
 <string>faceAuthentication</string>
-<string>Enabling Face ID allows you quick and secure access to your account.</string>
+account.</string>
 ```
 
 ### Requesting Face ID Authentication
 
 ```js
-import { authorize } from 'react-native-biometric-auth';
+import { authorize } from 'react-native-biometric-authentication';
 
 // ...
 

@@ -53,9 +53,9 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C or Swift files, open `example/ios/BiometricAuthExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-biometric-auth`.
+To edit the Objective-C or Swift files, open `example/ios/BiometricAuthExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-biometric-authentication`.
 
-To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `react-native-biometric-auth` under `Android`.
+To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `react-native-biometric-authentication` under `Android`.
 
 
 ### Commit message convention
